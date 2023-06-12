@@ -1,3 +1,5 @@
+*.lua linguist-language=Lua
+
 wait(2)
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local teams = game:GetService("Teams")
