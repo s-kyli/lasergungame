@@ -10,7 +10,7 @@ partFunctionsMod.playerFromHit = function(hit)
 	return player,char
 end
 
--- this is a module script, it can only run functions it doesn't execute things itself
+-- this is a module script, it can only give other scripts the ability to run its functions it doesn't execute things itself
 
 partFunctionsMod.DamageParts = function(part)
 	local debounce = false
