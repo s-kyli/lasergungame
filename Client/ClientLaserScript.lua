@@ -14,13 +14,11 @@ CL.OnClientEvent:Connect(function(laser:Part)
 		if hit.CollisionGroup == "Obstacles" then
 			newLaser:Destroy()
 		end
-
-		wait(3)
-		--destroy laserbeam if not destroyed already
-		if newLaser then
-			newLaser:Destroy()
-		end
-
 	end)
+	wait(3)
+	--destroy laserbeam if not destroyed already
+	if newLaser then
+		newLaser:Destroy()
+	end
 
 end)
